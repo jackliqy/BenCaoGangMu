@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NetWorkList</class>
+ <widget class="QDialog" name="NetWorkList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>项目汇总</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Aether.qrc">
+    <normaloff>:/resources/image/logo.png</normaloff>:/resources/image/logo.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QTableView" name="tableView_network_list">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>7</y>
+     <width>791</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::NoSelection</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Aether.qrc"/>
+ </resources>
+ <connections/>
+</ui>
